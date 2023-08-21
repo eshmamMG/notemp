@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/020/176/small/abstract-white-and-light-gray-wave-modern-soft-luxury-texture-with-smooth-and-clean-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.about
+{
+    margin-left: 5%;
+    width: 90%;
+@media (max-width: 992px) {
+        .about .container {
+            padding: 30px;
+        }
+    }
+  
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+    padding-right: 20px;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: lightwhite;
+    color: white;
+    background-color: #005899;
+}
+
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 130px;
+    height: 120px;
+}
+
+
+.avatar:hover {
+    vertical-align: middle;
+    width: 130px;
+    height: 120px;
+    border: 2px solid lightgray;
+}
+
+.certifications
+{
+    margin-left: 7%;
+        width: 90%;
+height: auto;
+}
+
+
+.heading
+{
+    
+    text-align: center;
+    
+}
+
+.concerns
+{
+        text-align: center;
+        font-size: 40px;
+   
+}
+
+.concerns:hover {
+    text-align: center;
+    color: #005899;
+   
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.appear
+{
+ 
+    font-size: 16px;
+        padding-right: 60px;
+        font-style: italic;
+        background-color: green;
+        color: white;
+        padding-bottom: 30px;
+        
+}
+
